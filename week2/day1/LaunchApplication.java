@@ -13,10 +13,9 @@ public class LaunchApplication {
 	public static void main(String[] args) {
 		
 		// To set the path for the driver
-		
-		WebDriverManager.chromedriver().setup();
-		
 		// Code to open chrome driver
+		
+		WebDriverManager.chromedriver().setup();		
 		
 		ChromeDriver driver = new ChromeDriver();
 		

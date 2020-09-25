@@ -1,6 +1,6 @@
 package week2.day1;
 
-import java.util.List;
+
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -81,7 +81,7 @@ WebDriverManager.chromedriver().setup();
 		
 		System.out.println(driver.getTitle());
 		
-		//driver.close();
+		driver.close();
 		
 		}
 
